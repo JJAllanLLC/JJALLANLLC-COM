@@ -302,6 +302,14 @@
         margin-bottom: 1rem;
       }
 
+      .portfolio-thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+        display: block;
+      }
+
       .pill {
         display: inline-flex;
         align-items: center;
@@ -507,7 +515,13 @@
           </p>
           <div class="grid grid-3">
             <div class="card">
-              <div class="portfolio-thumb">Thumbnail</div>
+              <div class="portfolio-thumb">
+                <img
+                  src="/assets/lostphones_thumb.png"
+                  alt="LostPhones.com homepage preview"
+                  loading="lazy"
+                />
+              </div>
               <h3>LostPhones.com</h3>
               <p class="lead">
                 Free lost phone recovery resource built for clarity, speed, and global reach.
